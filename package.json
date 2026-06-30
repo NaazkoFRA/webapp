@@ -2,13 +2,12 @@
   "name": "devsecops-app",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest --coverage --forceExit"
+    "test": "jest --coverage"
   },
   "dependencies": {
-    "express": "4.17.1"
+    "express": "^4.21.2"
   },
   "devDependencies": {
-    "jest": "^29.0.0",
-    "supertest": "^6.3.0"
+    "jest": "^29.0.0"
   }
 }
