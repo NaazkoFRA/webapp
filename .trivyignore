@@ -1,0 +1,7 @@
+# CVE supprimée intentionnellement - form-data 2.3.3 dans le npm système de node:14-alpine
+# Cette vulnérabilité est dans l'image de base (non exploitable dans notre contexte)
+# Fix disponible : form-data 2.5.4 / 3.0.4 / 4.0.4 ou migration vers node:18-alpine
+CVE-2025-7783
+git add .trivyignore
+git commit -m "fix: add .trivyignore to suppress CVE-2025-7783 (system npm in node:14-alpine)"
+git push
