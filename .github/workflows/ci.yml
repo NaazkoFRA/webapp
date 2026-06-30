@@ -66,3 +66,5 @@ jobs:
           image-ref: 'webapp:latest'
           severity: 'CRITICAL'
           exit-code: '1'
+
+        #CI?CD
